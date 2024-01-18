@@ -47,14 +47,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-main {
-    background-color: rgb(211, 210, 210);
-    min-width: 400px;
-    max-width: 1200px;
-    margin: auto;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 section {
     font-family: var(--fonteConteudo);
     line-height: 3.5em;
@@ -83,20 +75,13 @@ section.image p {
     padding: 10px;
 }
 
-section#img01 {
+#img01 {
     background-image: url('/imagens/background001.jpg');
     background-position: right center;
 }
-section#img02 {
+#img02 {
     background-image: url('/imagens/background002.jpg');
     background-position: right center;
-}
-section#border {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-section#shadow {
-    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.274);
 }
 
 footer {
