@@ -72,6 +72,7 @@ section.image p {
     padding: 10px;
 }
 
+/* Por algum motivo as imagens não estão sendo carregadas no Github pages */
 #img01 {
     background: url('/imagens/background001.jpg');
     background-position: right center;
