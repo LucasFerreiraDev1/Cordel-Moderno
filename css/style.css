@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* Import Fonte para titulos */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/* Import Fonte para conteúdo */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+
+    --fontePadrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonteTitulo: 'Passion One', sans-serif;
+    --fonteConteudo: 'Sriracha', cursive, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: darkgrey;
+    min-height: 100vh;
+    font-family: var(--fontePadrao);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 6vw;
+    font-family: var(--fonteTitulo);
+}
+header p {
+    padding-bottom: 50px;
+    font-size: 1.8vw;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: rgb(211, 210, 210);
+    min-width: 400px;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+section {
+    font-family: var(--fonteConteudo);
+    line-height: 3.5em;
+    padding: 10vh 0vh;
+}
+section p {
+    margin-left: 50px;
+    font-size: calc(1rem + 1vw);
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.image {
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.404);
+}
+
+section.image p {
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    padding: 10px;
+}
+
+section#img01 {
+    background-image: url('/imagens/background001.jpg');
+    background-position: right center;
+}
+section#img02 {
+    background-image: url('/imagens/background002.jpg');
+    background-position: right center;
+}
+section#border {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+section#shadow {
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.274);
+}
+
+footer {
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+footer a::after {
+    content: '\1F517';
+}
