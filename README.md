@@ -11,7 +11,7 @@
 - Curso: [Curso em Vídeo](https://cursoemvideo.com)
 - Professor: [Gustavo Guanabara](https://github.com/gustavoguanabara)
 - Poesia: [Milton Duarte - Cordel Moderno](https://www.recantodasletras.com.br/poesias/3186743)
-- Projeto desenvolvido por [Lucas Ferreira](https://github.com/LuksDevs)
+- Projeto desenvolvido por [Lucas Ferreira](https://github.com/LucasFerreiraDev1)
 
 ## 🔗 Licença
 
